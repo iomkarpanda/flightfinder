@@ -1,3 +1,50 @@
+body {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.container, .card, .form-control, .form-select, .list-group-item, .navbar, .bg-light, .border {
+  background-color: #f8f9fa !important;
+  color: #000000 !important;
+  border-color: #dee2e6 !important;
+}
+
+input, select, textarea {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+  border: 1px solid #ced4da !important;
+}
+
+.btn-primary {
+  background-color: #007bff !important;
+  border-color: #007bff !important;
+}
+
+.btn-success {
+  background-color: #28a745 !important;
+  border-color: #28a745 !important;
+}
+
+.btn-danger {
+  background-color: #dc3545 !important;
+  border-color: #dc3545 !important;
+}
+
+.navbar, .navbar-brand, .nav-link {
+  background-color: #f8f9fa !important;
+  color: #000000 !important;
+}
+
+.list-group-item {
+  background-color: #f8f9fa !important;
+  color: #000000 !important;
+}
+
+::-webkit-input-placeholder { color: #6c757d; }
+::-moz-placeholder { color: #6c757d; }
+:-ms-input-placeholder { color: #6c757d; }
+::placeholder { color: #6c757d; }
+
 #root {
   max-width: 1280px;
   margin: 0 auto;

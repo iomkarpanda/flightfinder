@@ -12,6 +12,7 @@ function Login() {
     e.preventDefault();
     try {
       const res = await axios.post('http://localhost:5000/api/auth/login', { username, password });
+      localStorage.setItem('userId', res.data.user._id);
       if (res.data.user.role === 'admin') navigate('/admin');
       else navigate('/flights');
     } catch (err) {
